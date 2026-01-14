@@ -8,7 +8,7 @@ public class Que1 {
         double total;
         double per;
 
-        System.out.print("Enter ypur obtained marks: ");
+        System.out.print("Enter your obtained marks: ");
         obt = sc.nextDouble();
         System.out.print("Enter the total marks: ");
         total = sc.nextDouble();
