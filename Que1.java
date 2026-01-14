@@ -8,16 +8,12 @@ public class Que1 {
         double total;
         double per;
 
-        System.out.print("Enter obtained marks: ");
+        System.out.print("Enter ypur obtained marks: ");
         obt = sc.nextDouble();
-
-        System.out.print("Enter total marks: ");
+        System.out.print("Enter the total marks: ");
         total = sc.nextDouble();
 
         per = (obt / total) * 100;
-
         System.out.println("Percentage = " + per);
-
-        sc.close();
     }
 }
